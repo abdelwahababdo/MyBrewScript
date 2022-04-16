@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Homebrew Script for OSX
-# To execute: save and `chmod +x ./brew-install-script.sh` then `./brew-install-script.sh`
+# To execute: save and `chmod +x ./runMe.sh` then `./runMe.sh`
 
 echo "Installing brew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -71,7 +71,7 @@ brew install --cask telegram
 # Web Tools
 echo "Installing web tools..."
 brew install --cask firefox
-#brew install --cask google-chrome
+brew install --cask google-chrome
 brew install --cask postman
 
 # File Storage
