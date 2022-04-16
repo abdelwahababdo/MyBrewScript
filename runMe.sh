@@ -8,6 +8,7 @@ echo "Installing brew..."
 
 echo "Installing my best Homebrew Packages... "
 
+    brew install cocoapods
     brew install tldr
     brew install archey
     brew install chruby
