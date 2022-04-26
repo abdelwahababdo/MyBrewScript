@@ -45,7 +45,8 @@ echo "Installing my fav apps..."
     brew install --cask xcodes
     brew install --cask android-studio
    # brew install --cask virtualbox
-    
+   brew install --cask gitkraken
+
 # Programming Languages
 #echo "Installing programming languages..."
 #brew install scala
