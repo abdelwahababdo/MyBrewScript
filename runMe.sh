@@ -7,7 +7,7 @@ echo "Installing brew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Installing my best Homebrew Packages... "
-
+echo "==> Formulae"
     brew install cocoapods
     brew install tldr
     brew install archey
@@ -34,55 +34,39 @@ echo "Installing my best Homebrew Packages... "
     brew install coreutils
     brew install aria2 # https://github.com/aria2/aria2
     brew install you-get
+    brew install git
+    brew install git-extras
+    brew install git-flow
+    brew install git-secrets
     #brew install ffmpeg
-echo "Installing my fav apps..."
+echo "==> Casks"
     #brew install --cask Jellyfin
-    #brew install --cask Docker
+    brew install --cask Docker
     brew install --cask alacritty
     brew install --cask amethyst
     brew install --cask forticlient
     brew install --cask vlc
     brew install --cask xcodes
     brew install --cask android-studio
-   # brew install --cask virtualbox
-   brew install --cask gitkraken
-
-# Programming Languages
-#echo "Installing programming languages..."
-#brew install scala
-#brew install --cask r
-#brew install --cask oracle-jdk-javadoc
-
-# Dev Tools
-echo "Installing development tools..."
-    brew install git
-    brew install git-extras
-    brew install git-flow
-    brew install git-secrets
+    brew install --cask virtualbox
+    brew install --cask gitkraken
     brew install --cask github
-    brew install --cask visual-studio-code
 
-# Communication Apps
-echo "Installing communication apps..."
+echo "Installing microsoft apps..."
+brew install --cask visual-studio-code
 brew install --cask microsoft-teams
 brew install --cask microsoft-outlook
+brew install --cask microsoft-word
+brew install --cask onedrive
+
 brew install --cask slack
 brew install --cask zoom
 brew install --cask telegram
 
-# Web Tools
-echo "Installing web tools..."
 brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask postman
 
-# File Storage
-echo "Installing file storage tools..."
-brew install --cask onedrive
-
-# Writing Apps
-echo "Installing writing apps..."
-brew install --cask microsoft-word
 
 # Other
 #echo "Installing everything else..."
