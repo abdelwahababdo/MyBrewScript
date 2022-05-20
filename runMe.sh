@@ -73,9 +73,9 @@ echo "Installing microsoft apps..."
     # brew install --cask microsoft-excel
     # brew install --cask microsoft-powerpoint
 
-# Other
-#echo "Installing everything else..."
-
+# Other terminal tools
+echo "Installing terminal tools..."
+  brew install aria2
 
 # List of all packages installed Homebrew
 # --> brew list
